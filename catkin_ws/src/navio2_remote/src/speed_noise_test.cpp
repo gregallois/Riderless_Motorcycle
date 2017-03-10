@@ -473,7 +473,8 @@
 		sensor_msgs::Imu pos_msg; //use of imu type message for storing position in XY and kalman filtered
 
 		float desired_roll = 0;
-
+        float desired_speed = 0;
+        
 		//speed in m/s
 		float speed = 0;
 		float speed_filt = 0;
