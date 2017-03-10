@@ -123,7 +123,9 @@ include_directories(
 	include
 )
 
-
+add_library(rcinput src/RCInput.cpp)
+add_library(pwm src/PWM.cpp)
+add_library(util src/Util.cpp)
 
 
 add_executable(remote_multiCtr_KalmanFiltering src/remote_multiCtr_KalmanFiltering.cpp)
